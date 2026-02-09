@@ -1,0 +1,14 @@
+{
+  "name": "campus-card-balance",
+  "version": "1.0.0",
+  "description": "校园卡余额查询云函数",
+  "main": "index.js",
+  "dependencies": {},
+  "keywords": [
+    "uni-cloud",
+    "campus-card",
+    "balance"
+  ],
+  "author": "",
+  "license": "ISC"
+}

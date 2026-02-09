@@ -1,0 +1,145 @@
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+.header {
+  padding: 20rpx;
+  border-bottom: 4rpx solid #000000;
+}
+.post-info {
+  display: flex;
+  align-items: center;
+}
+.comment-count {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #000000;
+}
+.comments-scroll {
+  flex: 1;
+  padding: 0 20rpx;
+}
+.loading-container, .empty-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100rpx 0;
+}
+.empty-card {
+  width: 90%;
+  padding: 60rpx 40rpx;
+  display: flex;
+  justify-content: center;
+}
+.empty-text {
+  font-size: 32rpx;
+  color: #333333;
+}
+.comment-list {
+  padding: 20rpx 0;
+}
+.comment-item-container {
+  margin-bottom: 30rpx;
+}
+.comment-item {
+  padding: 30rpx;
+}
+.comment-content {
+  margin-bottom: 20rpx;
+}
+.comment-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.user-info {
+  margin-left: 20rpx;
+}
+.nickname {
+  font-size: 28rpx;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+}
+.time {
+  font-size: 24rpx;
+  color: #999999;
+  display: block;
+  margin-top: 5rpx;
+}
+.comment-text {
+  font-size: 30rpx;
+  color: #333333;
+  line-height: 1.6;
+  display: block;
+  margin-bottom: 15rpx;
+}
+.comment-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+.action-btn {
+  padding: 5rpx 15rpx;
+  border: 2rpx solid #000000;
+}
+.action-text {
+  font-size: 26rpx;
+  color: #333333;
+}
+.replies-container {
+  border-top: 2rpx dashed #000000;
+  padding-top: 20rpx;
+  margin-top: 20rpx;
+}
+.reply-item {
+  padding: 20rpx;
+  background-color: #F5F5F5;
+  border: 2rpx solid #000000;
+  margin-bottom: 15rpx;
+}
+.reply-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.reply-to-text {
+  font-size: 26rpx;
+  color: #666666;
+  margin-left: 10rpx;
+}
+.reply-text {
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 10rpx;
+}
+.reply-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+.load-more {
+  display: flex;
+  justify-content: center;
+  padding: 20rpx;
+}
+.input-container {
+  padding: 20rpx;
+  border-top: 4rpx solid #000000;
+}
+.input-card {
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+}
+.comment-input {
+  flex: 1;
+  margin-right: 20rpx;
+}
+.submit-btn {
+  width: 120rpx;
+  height: 60rpx;
+}

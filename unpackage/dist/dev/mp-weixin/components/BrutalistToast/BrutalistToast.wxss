@@ -1,0 +1,25 @@
+
+.brutalist-toast.data-v-2e7f2ec6 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-1deg);
+  background: #000000;
+  color: #FFFFFF;
+  padding: 32rpx 48rpx;
+  border-radius: 16rpx;
+  z-index: 1001;
+  max-width: 80%;
+  text-align: center;
+}
+.brutalist-toast__text.data-v-2e7f2ec6 {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.fade-enter-active.data-v-2e7f2ec6, .fade-leave-active.data-v-2e7f2ec6 {
+  transition: opacity 0.3s;
+}
+.fade-enter.data-v-2e7f2ec6, .fade-leave-to.data-v-2e7f2ec6 {
+  opacity: 0;
+}

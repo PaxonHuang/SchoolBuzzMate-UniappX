@@ -1,0 +1,9 @@
+---
+description: 
+alwaysApply: true
+enabled: true
+updatedAt: 2025-12-15T09:22:52.234Z
+provider: 
+---
+
+微信小程序页面路径深度不得超过5层，文件名必须为小写连字符格式

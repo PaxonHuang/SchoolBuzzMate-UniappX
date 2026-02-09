@@ -1,0 +1,19 @@
+
+.brutalist-title.data-v-3d84b199 {
+  display: block;
+  color: #000000;
+  font-weight: 900;
+  margin: 20rpx 0;
+}
+.brutalist-title--small.data-v-3d84b199 {
+  font-size: 36rpx;
+  transform: rotate(-0.5deg);
+}
+.brutalist-title--medium.data-v-3d84b199 {
+  font-size: 48rpx;
+  transform: rotate(-1deg);
+}
+.brutalist-title--large.data-v-3d84b199 {
+  font-size: 60rpx;
+  transform: rotate(-1.5deg);
+}

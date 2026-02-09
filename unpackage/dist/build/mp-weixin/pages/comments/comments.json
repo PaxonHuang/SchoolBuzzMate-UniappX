@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "评论",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "brutalist-loading": "../../components/BrutalistLoading/BrutalistLoading",
+    "brutalist-avatar": "../../components/BrutalistAvatar/BrutalistAvatar",
+    "brutalist-card": "../../components/BrutalistCard/BrutalistCard",
+    "brutalist-input": "../../components/BrutalistInput/BrutalistInput",
+    "brutalist-button": "../../components/BrutalistButton/BrutalistButton"
+  }
+}

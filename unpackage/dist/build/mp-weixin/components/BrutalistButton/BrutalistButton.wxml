@@ -1,0 +1,1 @@
+<button class="{{['brutalist-button', 'data-v-0df29d9e', b, c]}}" disabled="{{d}}" bindtap="{{e}}"><text class="brutalist-button__text data-v-0df29d9e">{{a}}</text></button>

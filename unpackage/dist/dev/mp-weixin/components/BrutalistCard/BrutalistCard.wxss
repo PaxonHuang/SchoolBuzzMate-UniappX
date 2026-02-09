@@ -1,0 +1,25 @@
+
+.brutalist-card.data-v-b656d347 {
+  background: #FFFFFF;
+  border: 4rpx solid #000000;
+  box-shadow: 6rpx 6rpx 0px #000000;
+  transform: rotate(-1deg);
+  margin: 20rpx 0;
+  overflow: hidden;
+}
+.brutalist-card--clickable.data-v-b656d347 {
+  transition: transform 0.1s ease;
+}
+.brutalist-card--clickable.data-v-b656d347:active {
+  transform: translateY(3rpx) rotate(-1deg);
+  box-shadow: 3rpx 3rpx 0px #000000;
+}
+.brutalist-card--primary.data-v-b656d347 {
+  background: #FF6B6B;
+}
+.brutalist-card--secondary.data-v-b656d347 {
+  background: #FFE66D;
+}
+.brutalist-card__content.data-v-b656d347 {
+  padding: 32rpx;
+}

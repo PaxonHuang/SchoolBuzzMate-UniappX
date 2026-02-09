@@ -1,0 +1,14 @@
+{
+  "name": "validate-token",
+  "version": "1.0.0",
+  "description": "token验证云函数",
+  "main": "index.js",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

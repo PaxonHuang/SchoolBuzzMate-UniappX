@@ -1,0 +1,1 @@
+<view class="brutalist-avatar data-v-a80429dc" style="{{e}}"><image wx:if="{{a}}" class="brutalist-avatar__image data-v-a80429dc" src="{{b}}" binderror="{{c}}"/><text wx:else class="brutalist-avatar__placeholder data-v-a80429dc">{{d}}</text></view>

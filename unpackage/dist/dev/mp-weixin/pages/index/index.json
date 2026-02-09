@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "校趣闪搭",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "brutalist-title": "../../components/BrutalistTitle/BrutalistTitle",
+    "brutalist-loading": "../../components/BrutalistLoading/BrutalistLoading",
+    "brutalist-avatar": "../../components/BrutalistAvatar/BrutalistAvatar",
+    "brutalist-card": "../../components/BrutalistCard/BrutalistCard",
+    "brutalist-button": "../../components/BrutalistButton/BrutalistButton"
+  }
+}

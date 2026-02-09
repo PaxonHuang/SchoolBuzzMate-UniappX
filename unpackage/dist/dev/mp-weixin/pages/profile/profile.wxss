@@ -1,0 +1,96 @@
+
+.profile-container {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  padding: 40rpx;
+}
+.profile-card {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 60rpx 40rpx;
+  border: 8rpx solid #000000;
+  box-shadow: 12rpx 12rpx 0px #000000;
+  transform: rotate(-1deg);
+}
+.user-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60rpx;
+}
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  border: 4rpx solid #000000;
+  margin-bottom: 20rpx;
+}
+.nickname {
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20rpx;
+}
+.user-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tag {
+  padding: 6rpx 20rpx;
+  background-color: #FFE66D;
+  border: 2rpx solid #000000;
+  font-size: 24rpx;
+  color: #000000;
+  margin: 0 10rpx 10rpx 0;
+}
+.profile-info {
+  margin-bottom: 60rpx;
+}
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.info-item:last-child {
+  border-bottom: none;
+}
+.info-label {
+  font-size: 30rpx;
+  color: #666666;
+}
+.info-value {
+  font-size: 30rpx;
+  color: #000000;
+  font-weight: 700;
+}
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+.action-btn {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4rpx solid #000000;
+  box-shadow: 6rpx 6rpx 0px #000000;
+}
+.action-btn:active {
+  transform: translate(3rpx, 3rpx);
+  box-shadow: 3rpx 3rpx 0px #000000;
+}
+.action-btn {
+  background-color: #FF6B6B;
+}
+.brutalist-btn-secondary {
+  background-color: #FFE66D;
+}
+.action-btn text {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #000000;
+}

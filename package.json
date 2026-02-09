@@ -1,0 +1,19 @@
+{
+  "name": "SchoolBUZZUniAPPUnicloudTESTTEST",
+  "version": "1.0.0",
+  "description": "校园社交系统",
+  "scripts": {
+    "dev:mp-weixin": "echo 请在 HBuilderX 中使用菜单【运行】->【运行到小程序模拟器】->【微信开发者工具】",
+    "build:mp-weixin": "echo 请在 HBuilderX 中使用菜单【发行】->【小程序-微信】"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-alpha-4080720251125001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-alpha-4080720251125001",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.19",
+    "@dcloudio/vite-plugin-uni": "3.0.0-alpha-4080720251125001",
+    "vite": "^4.0.0"
+  }
+}

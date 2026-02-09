@@ -1,0 +1,9 @@
+---
+description: 
+alwaysApply: true
+enabled: true
+updatedAt: 2025-12-15T09:22:58.101Z
+provider: 
+---
+
+支付功能必须使用uni.requestPayment API，禁止前端计算金额

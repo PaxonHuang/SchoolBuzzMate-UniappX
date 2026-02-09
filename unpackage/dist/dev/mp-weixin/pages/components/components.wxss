@@ -1,0 +1,11 @@
+
+.container.data-v-845cd3d9 {
+  padding: 40rpx;
+  padding-bottom: 160rpx; /* 为底部导航留空间 */
+}
+.avatar-container.data-v-845cd3d9 {
+  display: flex;
+  align-items: center;
+  gap: 30rpx;
+  margin: 20rpx 0;
+}

@@ -1,0 +1,1 @@
+<view class="{{['brutalist-card', 'data-v-b656d347', a, b]}}" bindtap="{{c}}"><view class="brutalist-card__content data-v-b656d347"><slot></slot></view></view>

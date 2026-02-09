@@ -1,0 +1,1 @@
+<transition wx:if="{{c}}" class="data-v-2e7f2ec6" u-s="{{['d']}}" u-i="2e7f2ec6-0" bind:__l="__l" u-p="{{c}}"><view wx:if="{{a}}" class="brutalist-toast data-v-2e7f2ec6"><text class="brutalist-toast__text data-v-2e7f2ec6">{{b}}</text></view></transition>

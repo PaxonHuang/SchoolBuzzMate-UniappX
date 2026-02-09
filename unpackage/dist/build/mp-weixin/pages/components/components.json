@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "组件库",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "brutalist-title": "../../components/BrutalistTitle/BrutalistTitle",
+    "brutalist-button": "../../components/BrutalistButton/BrutalistButton",
+    "brutalist-input": "../../components/BrutalistInput/BrutalistInput",
+    "brutalist-card": "../../components/BrutalistCard/BrutalistCard",
+    "brutalist-avatar": "../../components/BrutalistAvatar/BrutalistAvatar",
+    "brutalist-loading": "../../components/BrutalistLoading/BrutalistLoading",
+    "brutalist-tab-bar": "../../components/BrutalistTabBar/BrutalistTabBar",
+    "brutalist-toast": "../../components/BrutalistToast/BrutalistToast",
+    "brutalist-dialog": "../../components/BrutalistDialog/BrutalistDialog"
+  }
+}

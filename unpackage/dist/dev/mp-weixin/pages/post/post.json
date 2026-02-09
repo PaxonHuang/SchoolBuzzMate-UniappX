@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发布动态",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "brutalist-input": "../../components/BrutalistInput/BrutalistInput",
+    "brutalist-button": "../../components/BrutalistButton/BrutalistButton",
+    "brutalist-card": "../../components/BrutalistCard/BrutalistCard"
+  }
+}

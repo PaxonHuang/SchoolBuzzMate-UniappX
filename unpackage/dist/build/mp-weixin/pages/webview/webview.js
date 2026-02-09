@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),t={data:()=>({url:""}),onLoad(t){t.url&&(this.url=decodeURIComponent(t.url)),t.title&&e.index.setNavigationBarTitle({title:t.title})}};const r=e._export_sfc(t,[["render",function(e,t,r,n,o,i){return{a:o.url}}]]);wx.createPage(r);

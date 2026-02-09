@@ -1,0 +1,22 @@
+
+.brutalist-avatar.data-v-a80429dc {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border: 4rpx solid #000000;
+  box-shadow: 6rpx 6rpx 0px #000000;
+  transform: rotate(-1deg);
+  overflow: hidden;
+}
+.brutalist-avatar__image.data-v-a80429dc {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.brutalist-avatar__placeholder.data-v-a80429dc {
+  font-size: 36rpx;
+  font-weight: 900;
+  color: #000000;
+}

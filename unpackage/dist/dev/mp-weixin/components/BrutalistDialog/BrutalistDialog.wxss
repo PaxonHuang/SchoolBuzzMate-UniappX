@@ -1,0 +1,46 @@
+
+.brutalist-dialog.data-v-3f350b9b {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.brutalist-dialog__container.data-v-3f350b9b {
+  width: 80%;
+  background: #FFFFFF;
+  border: 4rpx solid #000000;
+  box-shadow: 8rpx 8rpx 0px #000000;
+  transform: rotate(-1deg);
+  overflow: hidden;
+}
+.brutalist-dialog__header.data-v-3f350b9b {
+  padding: 32rpx 32rpx 16rpx;
+  border-bottom: 4rpx solid #000000;
+}
+.brutalist-dialog__title.data-v-3f350b9b {
+  font-size: 36rpx;
+  font-weight: 900;
+  color: #000000;
+}
+.brutalist-dialog__content.data-v-3f350b9b {
+  padding: 32rpx;
+}
+.brutalist-dialog__text.data-v-3f350b9b {
+  font-size: 30rpx;
+  color: #000000;
+  line-height: 1.6;
+}
+.brutalist-dialog__footer.data-v-3f350b9b {
+  display: flex;
+  padding: 16rpx 32rpx 32rpx;
+  gap: 20rpx;
+}
+.brutalist-dialog__footer > view.data-v-3f350b9b {
+  flex: 1;
+}
