@@ -8,7 +8,7 @@
             "mp-weixin" : {
                 "launchtype" : "local"
             },
-            "provider" : "alipay",
+            "provider" : "aliyun",
             "type" : "uniCloud"
         },
         {

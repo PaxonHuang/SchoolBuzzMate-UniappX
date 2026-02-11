@@ -2,8 +2,8 @@
   "tokenSecret": "${UNI_ID_TOKEN_SECRET}",
   "oauth": {
     "weixin": {
-      "appid": "${WECHAT_APPID}",
-      "secret": "${WECHAT_SECRET}"
+      "appid": "${wxbc1260ebbefc26f6}",
+      "secret": "${277dd20d50818bf2ffa1e238e51b18bb}"
     }
   },
   "tokenExpiresIn": 7200,

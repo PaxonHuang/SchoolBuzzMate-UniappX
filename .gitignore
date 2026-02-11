@@ -2,12 +2,19 @@
 node_modules/
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
 
 # 构建产物
 unpackage/
 dist/
+.hbuilderx/
 
-# IDE
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# IDE配置
 .idea/
 .vscode/
 *.suo
@@ -16,9 +23,10 @@ dist/
 *.sln
 *.sw?
 
-# 环境配置
-.env.local
-.env.*.local
+# UniCloud配置
+uniCloud-aliyun/uni-config.json
+uniCloud-aliyun/uni-id.config.json
+uniCloud-aliyun/cloudfunctions/*/node_modules/
 
 # 日志
 npm-debug.log*
@@ -31,11 +39,12 @@ lerna-debug.log*
 .DS_Store
 Thumbs.db
 
-# UniCloud
-uniCloud-aliyun/cloudfunctions/*/node_modules/
-uniCloud-aliyun/database/*.db
-
 # 临时文件
 *.tmp
 *.temp
 .cache/
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
