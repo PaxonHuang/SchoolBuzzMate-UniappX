@@ -1,6 +1,6 @@
 # 校趣闪搭校园服务平台
 
- 。
+ Opencode牛逼 claude code SB
 
 ## 项目概述
 
