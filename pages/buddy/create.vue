@@ -229,7 +229,8 @@ async function submitRequest() {
       maxParticipants: formData.value.maxParticipants || null,
       creator: userStore.user?._id || 'user_' + Date.now(),
       creatorName: userStore.user?.nickname || '校园用户',
-      status: 'open'
+      status: 'open',
+      createTime: Date.now()
     })
 
     uni.hideLoading()

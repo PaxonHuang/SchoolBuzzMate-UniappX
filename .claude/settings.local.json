@@ -12,7 +12,10 @@
       "Skill(frontend-design:frontend-design)",
       "Bash(dir:*)",
       "Bash(findstr:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Skill(using-superpowers)",
+      "Bash(git rm *)",
+      "Bash(git add *)"
     ]
   }
 }

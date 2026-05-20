@@ -59,6 +59,11 @@ const tabBarList: TabItem[] = [
     pagePath: 'pages/forum/index',
     text: '论坛',
     emoji: '📝'
+  },
+  {
+    pagePath: 'pages/messages/index',
+    text: '消息',
+    emoji: '💬'
   }
 ];
 

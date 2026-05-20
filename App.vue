@@ -13,12 +13,8 @@
 <script setup lang="uts">
 import { ref } from 'vue'
 import { onLaunch, onShow, onHide } from '@dcloudio/uni-app'
-import { useUserStore } from '@/stores/user'
-
 // 状态栏高度
 const statusBarHeight = ref(0)
-
-const userStore = useUserStore()
 
 // 应用生命周期
 onLaunch(() => {
@@ -27,9 +23,6 @@ onLaunch(() => {
   // 获取系统信息
   const systemInfo = uni.getSystemInfoSync()
   statusBarHeight.value = systemInfo.statusBarHeight || 0
-
-  // 检查登录状态
-  userStore.checkLoginStatus()
 
   // 初始化uni-id
   initUniId()

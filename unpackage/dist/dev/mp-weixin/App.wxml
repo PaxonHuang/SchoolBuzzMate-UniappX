@@ -1,1 +1,0 @@
-<view class="app"><view class="app-content"><view class="status-bar" style="{{'height:' + a}}"></view><router-view u-i="5915fbd5-0" bind:__l="__l"/></view></view>

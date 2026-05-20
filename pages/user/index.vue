@@ -244,8 +244,7 @@ function chooseAvatar() {
         name: 'file',
         success: (uploadRes) => {
           const data = JSON.parse(uploadRes.data)
-          userInfo.value.avatar = data.url
-          saveUserInfo()
+          userStore.updateProfile({ avatar: data.url })
         }
       })
     }
@@ -261,8 +260,7 @@ function saveNickname() {
     uni.showToast({ title: '昵称不能为空', icon: 'none' })
     return
   }
-  userInfo.value.nickname = tempNickname.value
-  saveUserInfo()
+  userStore.updateProfile({ nickname: tempNickname.value })
   uni.showToast({ title: '修改成功', icon: 'success' })
 }
 
@@ -272,8 +270,7 @@ function closeNicknamePopup() {
 function onGenderChange(e: any) {
   const index = e.detail.value
   const genderMap = ['male', 'female', 'secret']
-  userInfo.value.gender = genderMap[index]
-  saveUserInfo()
+  userStore.updateProfile({ gender: genderMap[index] })
   showGenderPicker.value = false
 }
 
@@ -284,8 +281,7 @@ function editContact() {
     placeholderText: userInfo.value.contact || '请输入联系方式',
     success: (res) => {
       if (res.confirm && res.content) {
-        userInfo.value.contact = res.content
-        saveUserInfo()
+        userStore.updateProfile({ contact: res.content })
       }
     }
   })

@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "发布跑腿",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "brutalist-card": "../../components/brutalist/BrutalistCard",
-    "brutalist-button": "../../components/brutalist/BrutalistButton",
-    "brutalist-input": "../../components/brutalist/BrutalistInput"
-  }
-}

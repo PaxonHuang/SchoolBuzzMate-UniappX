@@ -237,7 +237,8 @@ async function submitPost() {
       viewCount: 0,
       commentCount: 0,
       likeCount: 0,
-      status: 'published'
+      status: 'published',
+      createTime: Date.now()
     })
 
     uni.hideLoading()

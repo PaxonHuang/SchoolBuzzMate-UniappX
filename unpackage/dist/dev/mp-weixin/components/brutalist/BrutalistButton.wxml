@@ -1,1 +1,0 @@
-<view class="{{['brutalist-button', 'data-v-d47fd03d', c && 'accent', d && 'large', e && 'small', f && 'disabled', g && 'outline']}}" bindtap="{{h}}"><view wx:if="{{a}}" class="button-tape data-v-d47fd03d"></view><text class="button-text data-v-d47fd03d"><slot></slot></text><text wx:if="{{b}}" class="button-arrow data-v-d47fd03d">→</text></view>
