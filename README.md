@@ -1,7 +1,5 @@
 # 校趣闪搭校园服务平台
 
- Opencode牛逼
-
 claude code 牛逼
 
 claude傻逼公司

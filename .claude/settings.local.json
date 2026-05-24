@@ -15,7 +15,13 @@
       "Bash(rm:*)",
       "Skill(using-superpowers)",
       "Bash(git rm *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(Get-ChildItem *)",
+      "mcp__context7__resolve-library-id",
+      "Bash(git commit *新开一个名为SchoolBuzzMate-Taro的仓库在https://github.com/PaxonHuang/，而非在https://github.com/PaxonHuang/SchoolBuzzMate-UniappX基础上新增barnch，使得版本管理更清晰)",
+      "Bash(gh repo *)",
+      "Bash(gh auth *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
